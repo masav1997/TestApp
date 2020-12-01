@@ -7,6 +7,8 @@
   width: 312px;
   text-align: left;
   margin-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header__main {
   font-family: "Space Grotesk";
@@ -34,11 +36,13 @@
   .header {
     margin-top: -15px;
     margin-bottom: 39px;
-    margin-left: 10px;
+    margin-left: 60px;
   }
   .header h1 {
-    width: auto;
+    width: 800px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
   }
   .header__main {
     font-size: 48px;
@@ -48,15 +52,15 @@
     font-size: 36px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1411px) {
   .header h1 {
-    width: auto;
+    width: 800px;
     text-align: left;
-    margin-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  .header__main {
-    font-size: 72px;
-    line-height: 120%;
+  .header__main1 {
+    margin-left: 20px;
   }
 }
 .main {
@@ -67,6 +71,11 @@
   margin-bottom: 48px;
   margin-top: 27px;
   width: 310px;
+  margin: auto;
+}
+.main-block {
+  margin: auto;
+  width: 350px;
 }
 .main__card:hover {
   opacity: 0.6;
@@ -121,6 +130,7 @@
     grid-row-start: 1;
     border-top: 1px solid black;
     padding-left: 18px;
+    height: 342px;
   }
   .main__card-item1 {
     grid-column-start: 2;
@@ -129,8 +139,9 @@
     padding-left: 18px;
   }
   .main-block {
+    width: 800px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
     margin-top: 48px;
   }
   .main__info {
@@ -154,7 +165,7 @@
     margin-top: 30px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1411px) {
   .main {
     padding: 0px 48px;
     display: grid;
@@ -166,7 +177,7 @@
     border: none;
     width: auto;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 0px 48px 32px 48px;
     margin-left: -10px;
     padding-top: 0px;
@@ -179,6 +190,7 @@
     border-top: 1px solid black;
     padding-left: 32px;
     margin-top: 8px;
+    height: 300px;
   }
   .main__card-item1 {
     grid-column-start: 1;
@@ -186,6 +198,11 @@
     border-top: 1px solid black;
     padding-left: 0px;
     margin-top: 0px;
+    padding-top: 80px;
+    height: 290px;
+  }
+  .main__info {
+    margin-left: 10px;
   }
   .main__info-title {
     font-size: 20px;
@@ -210,8 +227,6 @@ a {
 }
 body {
   font-family: "Space Grotesk", "Arial", sans-serif;
-  max-width: 1280px;
-  margin: auto;
 }
 .visually-hidden {
   position: absolute;
@@ -331,35 +346,34 @@ body {
     grid-row-start: 1;
   }
   .card__photo2 {
-    width: auto;
     background-repeat: round;
+    height: 342px;
     grid-column-start: 1;
     grid-row-start: 1;
     width: 342px;
     background-size: contain;
-    height: 342px;
   }
   .card__photo3 {
     width: auto;
     background-repeat: round;
+    height: 342px;
     grid-column-start: 1;
     grid-row-start: 1;
     width: 342px;
     background-size: contain;
-    height: 342px;
   }
   .card__photo4 {
     width: auto;
     background-repeat: round;
+    height: 342px;
     grid-column-start: 1;
     grid-row-start: 1;
     border-radius: 0px 170px 0px 0px;
     width: 342px;
     background-size: contain;
-    height: 342px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1411px) {
   .card__header {
     font-size: 20px;
     line-height: 140%;
@@ -381,7 +395,6 @@ body {
     grid-row-start: 1;
   }
   .card__photo2 {
-    width: auto;
     background-repeat: round;
     height: 294px;
     grid-column-start: 1;
@@ -390,7 +403,6 @@ body {
     background-size: contain;
   }
   .card__photo3 {
-    width: auto;
     background-repeat: round;
     height: 294px;
     grid-column-start: 2;
@@ -399,7 +411,6 @@ body {
     background-size: contain;
   }
   .card__photo4 {
-    width: auto;
     background-repeat: round;
     height: 294px;
     grid-column-start: 2;
@@ -424,6 +435,7 @@ body {
   line-height: 170%;
   color: #676767;
   margin-bottom: 26px;
+  margin: auto;
 }
 .cost__price-block {
   display: flex;
@@ -488,6 +500,7 @@ body {
     margin-left: 0px;
     height: 215px;
     margin-right: 50px;
+    margin-top: -10px;
   }
   .cost__title {
     font-size: 14px;
@@ -523,7 +536,7 @@ body {
     margin-top: -5px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1411px) {
   .cost {
     grid-column-start: 2;
     grid-row-start: 2;
@@ -641,12 +654,12 @@ body {
     margin-top: -5px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1411px) {
   .form {
     grid-column-start: 1;
     grid-row-start: 3;
     margin-top: -108px;
-    padding-left: 40px;
+    padding-left: 70px;
   }
   .form__input {
     padding-bottom: 20px;
@@ -660,6 +673,8 @@ body {
   .form__btn {
     font-size: 30px;
     margin-top: 10px;
+    width: auto;
+    text-align: left;
   }
 }
 
