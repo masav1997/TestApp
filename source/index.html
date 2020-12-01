@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test app</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1><mark class="header__main">Voluptatem illo assumenda</mark></h1>
+    </header>
+
+    <section class="main">
+      <a href="main.html">
+        <div class="main__card">
+          <div class="main__card-item">
+            <h2 class="card__header">Izabella8</h2>
+            <p class="card__description">Global Infrastructure Architect</p>
+            <p class="card__time">08:30 – 09:00</p>
+            <p class="card__description">
+              Qui eos a quia dolorem sapiente deserunt ut expedita sunt. Quia
+              perspiciatis quo excepturi id dolor voluptatem aut adipisci.
+            </p>
+          </div>
+          <div class="card__photo1"></div>
+        </div>
+      </a>
+
+      <a href="main.html">
+        <div class="main__card">
+          <div class="main__card-item">
+            <h2 class="card__header">Izabella8</h2>
+            <p class="card__description">Global Infrastructure Architect</p>
+            <p class="card__time">08:30 – 09:00</p>
+            <p class="card__description">
+              Qui eos a quia dolorem sapiente deserunt ut expedita sunt. Quia
+              perspiciatis quo excepturi id dolor voluptatem aut adipisci.
+            </p>
+          </div>
+          <div class="card__photo2"></div>
+        </div>
+      </a>
+
+      <a href="main.html">
+        <div class="main__card">
+          <div class="main__card-item1">
+            <h2 class="card__header">Izabella8</h2>
+            <p class="card__description">Global Infrastructure Architect</p>
+            <p class="card__time">08:30 – 09:00</p>
+            <p class="card__description">
+              Qui eos a quia dolorem sapiente deserunt ut expedita sunt. Quia
+              perspiciatis quo excepturi id dolor voluptatem aut adipisci.
+            </p>
+          </div>
+          <div class="card__photo3"></div>
+        </div>
+      </a>
+
+      <a href="main.html">
+        <div class="main__card">
+          <div class="main__card-item1">
+            <h2 class="card__header">Izabella8</h2>
+            <p class="card__description">Global Infrastructure Architect</p>
+            <p class="card__time">08:30 – 09:00</p>
+            <p class="card__description">
+              Qui eos a quia dolorem sapiente deserunt ut expedita sunt. Quia
+              perspiciatis quo excepturi id dolor voluptatem aut adipisci.
+            </p>
+          </div>
+          <div class="card__photo4"></div>
+        </div>
+      </a>
+    </section>
+  </body>
+</html>
